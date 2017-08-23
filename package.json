@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Implement event emitter interface by forwarding events to another object. Powered by TypeScript",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
