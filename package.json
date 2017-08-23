@@ -1,0 +1,33 @@
+{
+  "name": "event-forwarder",
+  "version": "1.0.0",
+  "description": "Implement event emitter interface by forwarding events to another object. Powered by TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex94puchades/event-forwarder.git"
+  },
+  "keywords": [
+    "node",
+    "events",
+    "forwarding",
+    "typescript"
+  ],
+  "author": "Álex Puchades <alex94puchades+dev@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alex94puchades/event-forwarder/issues"
+  },
+  "homepage": "https://github.com/alex94puchades/event-forwarder#readme",
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.24"
+  }
+}
